@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobile Budhdhi</string>
+    <string name="accessibility_service_description">Mobile Budhdhi Accessibility Service provides complete voice control over your device. It can read screen content, perform gestures, and control apps through voice commands. This service is essential for Mobile Budhdhi to function properly and provide hands-free device control.</string>
+    
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">Mobile Budhdhi Accessibility Service provides voice control over your device. It can read screen content, perform gestures, and control apps through voice commands. This service is essential for Mobile Budhdhi to function properly and provide hands-free device control.</string>
+    
+    <!-- Voice Commands -->
+    <string name="wake_word">budhdhi</string>
+    <string name="listening">Listening for commands...</string>
+    <string name="processing">Processing your command...</string>
+    <string name="command_not_understood">I didn\'t understand that command. Please try again.</string>
+    
+    <!-- Status Messages -->
+    <string name="service_starting">Mobile Budhdhi is starting...</string>
+    <string name="service_active">Mobile Budhdhi is active and listening</string>
+    <string name="service_stopped">Mobile Budhdhi has been stopped</string>
+    <string name="permissions_needed">Please grant all required permissions</string>
+    <string name="accessibility_needed">Please enable Accessibility Service</string>
+    
+    <!-- Permission Messages -->
+    <string name="permission_microphone">Microphone access is required for voice commands</string>
+    <string name="permission_phone">Phone access is required for making calls</string>
+    <string name="permission_sms">SMS access is required for reading and sending messages</string>
+    <string name="permission_contacts">Contacts access is required for finding people</string>
+    <string name="permission_storage">Storage access is required for file operations</string>
+    
+    <!-- Command Responses -->
+    <string name="opening_app">Opening %1$s</string>
+    <string name="app_not_found">App %1$s not found</string>
+    <string name="calling_contact">Calling %1$s</string>
+    <string name="contact_not_found">Contact %1$s not found</string>
+    <string name="sending_message">Sending message to %1$s</string>
+    <string name="message_sent">Message sent successfully</string>
+    <string name="reading_messages">Here are your recent messages</string>
+    <string name="no_messages">No recent messages found</string>
+    <string name="playing_music">Playing music</string>
+    <string name="music_paused">Music paused</string>
+    <string name="volume_changed">Volume adjusted</string>
+    <string name="wifi_toggled">WiFi settings opened</string>
+    <string name="bluetooth_toggled">Bluetooth settings opened</string>
+    
+    <!-- Error Messages -->
+    <string name="error_generic">An error occurred. Please try again.</string>
+    <string name="error_no_permission">Permission required for this action</string>
+    <string name="error_service_not_available">Service not available</string>
+    <string name="error_network">Network error occurred</string>
+    
+    <!-- Notification -->
+    <string name="notification_title">Mobile Budhdhi Active</string>
+    <string name="notification_text">Listening for voice commands</string>
+    <string name="notification_channel_name">Voice Control Service</string>
+    <string name="notification_channel_description">Continuous voice control service</string>
+</resources>
